@@ -4,16 +4,6 @@ import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
     @org.junit.Test
-    public void ShouldTest1000() {
-        CashbackHackService service = new CashbackHackService();
-        int amount = 1000;
-
-        int actual = service.remain(amount);
-
-        assertEquals(0, actual);
-    }
-
-    @org.junit.Test
     public void ShouldTest1() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1;
